@@ -6,11 +6,11 @@
 .header-image{
     background-image:url(/site_headrr.png);
     background-repeat: no-repeat;
-    /* background-size: auto; */
-    background-position:center;
-    height:30rem;
-    display:flex;
-    align-items:center;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    display: flex;
+    align-items: center;
     margin-top: -100px;
     
 }
