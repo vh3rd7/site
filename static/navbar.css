@@ -1,0 +1,54 @@
+/*
+ * imagem do logo (apenas o vivendo tech opção de tirar)
+ */
+.navbar-brand {
+  font-size: 1.15rem;
+
+}
+
+/*
+ * fundo do home/videos/linguagens
+tem que usar https://getbootstrap.com/docs/4.0/utilities/flex/
+*/
+
+#navbar-container {
+  font-family: fantasy;
+  letter-spacing: 0.02rem;
+}
+
+.navbar.fixed-top.fixed-theme {
+  background-color: rgba(22, 25, 180, 0.7);
+  box-shadow: 0 0 3px rgba(10, 10, 10, 0.8);
+}
+
+/* isso é a transição */
+.navbar-brand.fixed-theme {
+  color: white;
+  font-size: 1.25rem;
+}
+
+#navbar-container div.navbar-nav a:hover {
+  background: white;
+}
+
+#navbar-container.fixed-theme div.navbar-nav a {
+  color: white;
+}
+
+#navbar-container.fixed-theme div.navbar-nav a:hover {
+  background: rgba(28, 4, 59, 0.7);
+}
+
+#navbar-container div.navbar-collapse.collapse.show {
+  padding-bottom: 0.5rem !important;
+}
+
+#navbar-container div.navbar-collapse.collapse.show a {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+#navbar-container {
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+}

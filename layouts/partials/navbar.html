@@ -1,35 +1,45 @@
 <!-- Cabeçalho -->
-<header id="header" class="navbar navbar-fixed-top">
+<header id="header" class="">
 
-    <!-- Menu de navegação -->
-    <nav id="header-container" class="container navbar-container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a id="brand" class="navbar-brand" href="/">Vivendo.tech </a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#video">Videos</a></li>
-                <li><a href="#linguagens">Linguagens</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-
-        </div><!-- /.nav-collapse -->
-    </nav>
+    <!-- Seção de imagem -->
+    <div class="header-image bg-info">
+        <!-- <div class="header-image"></div> -->
+        <img src="/site_headrr.png" alt="">
+    </div>
+    
 </header>
 
 
-<!-- Seção de imagem -->
-<section class="row">
-    <div class="col">
-        <div class="header-image"></div>
-    </div>
-</section>
+<!-- Menu de navegação -->
+<nav id="navbar-container" class="navbar navbar-expand-md fixed-top fixed-theme py-0">
+    <a id="brand" class="navbar-brand" href="#">
+        Vivendo.tech 
+    </a>
+        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse px-2" id="navbar">
+        
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">
+                Home 
+                <span class="sr-only">(current)</span>
+            </a>
+
+            <a class="nav-item nav-link" href="#videos">
+                Videos 
+            </a>
+
+            <a class="nav-item nav-link" href="#linguagens">
+                Linguagens 
+            </a>
+
+            <a class="nav-item nav-link" href="#contato">
+                Contato 
+            </a>
+        </div>
+    
+    </div><!-- /.nav-collapse -->
+</nav>

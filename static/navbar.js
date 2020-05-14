@@ -40,8 +40,7 @@ $(document).ready(function(){
      * that we want to change when the scroll goes down
      */
     myNavBar.init(  [
-        "header",
-        "header-container",
+        "navbar-container",
         "brand"
     ]);
     
