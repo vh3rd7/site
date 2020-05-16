@@ -44,12 +44,16 @@ footer {
 
 }
 
-.twitch,
-.twitch:hover,
-.twitch:active,
-.twitch:visited,
-.twitch:focus {
+.btn-twitch {
     background-color: #503484;
     border-color: #503484;
+    color: white;
+
+}
+  
+.btn-twitch:hover {
+    background-color: #2e135f;
+    border-color: #503484;
+    color: white;
 
 }
